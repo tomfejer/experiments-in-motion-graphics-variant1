@@ -1,0 +1,60 @@
+/* https://www.tomfejer.com/experiment-in-motion-graphics/ */
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("https://uploads.codesandbox.io/uploads/user/675a33f3-088a-4fab-baab-ea7e96c81246/vO_w-JetBrainsMono-Regular.woff2")
+    format("woff2");
+}
+
+body {
+  margin: 0;
+
+  --tp-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --tp-base-background-color: hsla(0, 0%, 10%, 0.8);
+  --tp-base-shadow-color: hsla(0, 0%, 0%, 0.2);
+  --tp-button-background-color: hsla(0, 0%, 80%, 1);
+  --tp-button-background-color-active: hsla(0, 0%, 100%, 1);
+  --tp-button-background-color-focus: hsla(0, 0%, 95%, 1);
+  --tp-button-background-color-hover: hsla(0, 0%, 85%, 1);
+  --tp-button-foreground-color: hsla(0, 0%, 0%, 0.8);
+  --tp-container-background-color: hsla(0, 0%, 0%, 0.3);
+  --tp-container-background-color-active: hsla(0, 0%, 0%, 0.6);
+  --tp-container-background-color-focus: hsla(0, 0%, 0%, 0.5);
+  --tp-container-background-color-hover: hsla(0, 0%, 0%, 0.4);
+  --tp-container-foreground-color: hsla(0, 0%, 100%, 0.5);
+  --tp-groove-foreground-color: hsla(0, 0%, 0%, 0.2);
+  --tp-input-background-color: hsla(0, 0%, 0%, 0.3);
+  --tp-input-background-color-active: hsla(0, 0%, 0%, 0.6);
+  --tp-input-background-color-focus: hsla(0, 0%, 0%, 0.5);
+  --tp-input-background-color-hover: hsla(0, 0%, 0%, 0.4);
+  --tp-input-foreground-color: hsla(0, 0%, 100%, 0.5);
+  --tp-label-foreground-color: hsla(0, 0%, 100%, 0.5);
+  --tp-monitor-background-color: hsla(0, 0%, 0%, 0.3);
+  --tp-monitor-foreground-color: hsla(0, 0%, 100%, 0.3);
+}
+
+/* .tp-fldv_t,
+.tp-lblv_l {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.tp-txtv_i {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+} */
+
+.tp-colswv_sw,
+.tp-p2dpv_p,
+.tp-txtv_i {
+  font-family: "JetBrainsMono" !important;
+}
+
+canvas {
+  /* position: absolute;
+  inset: 0; */
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
